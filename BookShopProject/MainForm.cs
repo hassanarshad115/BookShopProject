@@ -137,7 +137,7 @@ namespace BookShopProject
             //ispy double click krna ha to ider ajayga  12
 
             Bitmap bmp=Properties.Resources.Screenshot_11;
-            Image newimage=bmp;
+            Image newimage=bmp; 
             e.Graphics.DrawImage(newimage , 25,25,newimage.Width,newimage.Height);
 
             e.Graphics.DrawString("Client Name: "+ clientnametextBox.Text, new Font("Arial", 12, FontStyle.Regular), Brushes.Black, new Point(25, 270));
